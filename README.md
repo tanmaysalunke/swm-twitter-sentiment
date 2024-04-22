@@ -13,7 +13,7 @@ This project contains code for processing text, creating features, and conductin
 2. **Change to the project directory:**
 
 ```
-cd Twitter-Sentiment-Analysis-using-Neural-Networks
+cd to_the_folder
 ```
 
 3. **Install the required Python depndencies:**
@@ -27,7 +27,7 @@ pip install -r requirements.txt
 1. **Download the dataset from Kaggle:**
    The dataset is available at [this link](https://www.kaggle.com/kazanova/sentiment140).
 2. **Unzip the downloaded file and rename the resulting CSV file to `dataset.csv`.**
-3. **Create a `data` folder inside the project directory and move `dataset.csv` into this folder.**
+3. **Create a folder to host the dataset files inside the project directory and move csv into this folder.**
 
 ## Using the Code
 
