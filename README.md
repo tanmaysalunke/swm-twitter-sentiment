@@ -1,6 +1,5 @@
-# Twitter Sentiment Analysis Using Neural Networks
-
-This project contains code for processing text, creating features, and conducting sentiment analysis with Neural Networks. We specifically use LSTM (Long Short-Term Memory networks) to train our models, achieving a test accuracy of 79%.
+# Twitter Sentiment Analysis 
+This project contains code for processing text, creating features, and conducting sentiment analysis. We specifically use LSTM (Long Short-Term Memory networks) to train our models, achieving a test accuracy of 79%.
 
 ## Setup Instructions
 
