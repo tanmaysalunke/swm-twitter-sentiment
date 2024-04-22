@@ -4,27 +4,12 @@ This project contains code for processing text, creating features, and conductin
 
 ## Setup Instructions
 
-### Installing Python
+## Requirements
 
-1. **Install pyenv (a tool to manage different Python versions):**
-
-```
-brew install pyenv
-```
-
-2. **Use pyenv to install Python version 3.7.2:**
-
-```
-CFLAGS="-I$(xcrun --show-sdk-path)/usr/include" pyenv install 3.7.2
-```
+1. Python installation
+2. Necessary library installation from the requirements.txt
 
 ### Setting Up the Code
-
-1. **Download the project repository:**
-
-```
-git clone https://github.com/kb22/Twitter-Sentiment-Analysis-using-Neural-Networks.git
-```
 
 2. **Change to the project directory:**
 
@@ -47,34 +32,59 @@ pip install -r requirements.txt
 
 ## Using the Code
 
-### Analyzing the Dataset
-
-1. **Start the Jupyter Notebook to explore the dataset:**
-
-```
-jupyter notebook
-```
-
-2. **Open the `Dataset analysis.ipynb` notebook from Jupyter to view the dataset analysis.**
-
 ### Performing Twitter Sentiment Analysis
 
 1. **Split the dataset into training and testing sets:**
 
 ```
-python train-test-split.py
+python twitter_dataset_split.py
 ```
 
 2. **Process the tweets to prepare for analysis. This includes removing mentions, links, non-letters, and more:**
 
 ```
-python preprocessing.py
+python twitter_preprocessing.py
 ```
 
 3. **Train the LSTM model on the processed data and test its accuracy:**
 
 ```
-python lstm.py
+python twitter_lstm_model_training.py
 ```
 
 This setup and process will allow you to analyze sentiments from Twitter data using advanced neural network techniques.
+
+# CSE 573: Sentiment Analysis Utilizing Logistic Regression
+
+Please download this directory! <br>
+This project contains code to train a Logistic Regression model to classify between negative and positive sentiments. Additionally, there is a testModel.py file to test out the model with new sentences. It takes about 6 minutes to train the model. The training accuracy is about 81% and the testing accuracy is about 77.9%
+
+## Please make sure to have Python installed
+
+## Prerequisite Python libraries:
+
+Please install these libraries to run the program
+
+- pandas
+- re
+- nltk
+- sklearn
+- joblib
+- seaborn
+- matplotlib
+- tkinter
+
+## Data:
+
+- Please go to this link:
+  https://www.kaggle.com/datasets/kazanova/sentiment140 <br>
+- Download this dataset, and put it in the DATA folder
+- Rename the file name to dataset.csv
+
+## To run the code:
+
+`cd CODE` <br>
+Train the model: <br>
+`python logistic_regression_model.py` <br>
+Test the model: <br>
+`python test_model.py` <br>
