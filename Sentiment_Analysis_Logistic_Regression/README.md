@@ -1,9 +1,10 @@
 # CSE 573: Sentiment Analysis Utilizing Logistic Regression
 
 Please download this directory! <br>
-This project contains code to train a Logistic Regression model to classify between negative and positive sentiments. Additionally, there is a testModel.py file to test out the model with new sentences. It takes about 7 minutes to train the model. The training accuracy is about 81% and the testing accuracy is about 77.9%
+This project contains code to train a Logistic Regression model to classify between negative and positive sentiments. Additionally, there is a testModel.py file to test out the model with new sentences. It takes about 6 minutes to train the model. The training accuracy is about 81% and the testing accuracy is about 77.9%
 
-## Prerequisite libraries:
+## Please make sure to have Python installed
+## Prerequisite Python libraries:
 Please install these libraries to run the program
 - pandas
 - re
